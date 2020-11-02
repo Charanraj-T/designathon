@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABORATORY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="navbar">
+     <img id="logo" src="images/kongu.png" alt="kongu">
+     <a id="f" href="https://www.kongu.ac.in">About us</a>
+     <div class="dropdown">
+        <button class="dropbtn">Facility 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropopt">
+            <a href="lab.html">Laboratory</a>
+            <a href="lib.html">Library</a>
+        </div>
+      </div>
+      <a href="student.html">Student </a>
+      <a href="index.html">Home</a>
+    </div>
+
+    <div class="bg" id="lab">
+      <div class="introlab">
+          <h1>LABORATORIES</h1>
+      </div>
+      <div class=labs>
+        <img src="images/sdlab.jpeg" alt="sdlab">
+        <h3>Software Development Laboratory</h3>
+        <p>Software Development Lab is used to enable the students to develop simple software applications using C,C++ and Java.
+           Provide practical exposure to the students for implementing software development concepts in real time applications.</p>
+      </div>
+      <div class=labs>
+        <img src="images/fosslab.jpeg" alt="fosslab">
+        <h3>Free / Open Source Software Laboratory</h3>
+        <p>Free Open Source Software lab is to familiarize students with the various Open source software like Linux,NetworkSimulators
+          ,Mysql,Eclipse and Glomosim.The students can understand the purpose of open source tools in real time application development.</p>
+      </div>
+      <div class=labs>
+        <img src="images/rdbmslab.jpeg" alt="rdbmslab">
+        <h3>RDBMS Laboratory</h3>
+        <p>Internet Programming Laboratory is mainly utilized by the students for developing dynamic web applications using the
+           tools like adobe dreamweaver and adobe photoshop.The Students are also facilitated to use the freely available open source 
+           tools like XAMPP/WAMP Servers.</p>
+      </div>
+      <div class=labs>
+        <img src="images/ssdlab.jpeg" alt="ssdlab">
+        <h3>SYSTEM SOFTWARE DEVELOPMENT LABORATORY</h3>
+        <p>The objective of the system software development laboratory is to familiarize students with the various system software like
+           assemblers,loaders,linkers,macro processors and text editor. Students are trained to implement all the system software 
+           mentioned above using C/C++ language.</p>
+      </div>
+      <div class=labs>
+        <img src="images/netlab.jpeg" alt="netlab">
+        <h3>NETWORK LABORATORY</h3>
+        <p>The Department has well equipped laboratory with facilities that are vital to train the students in developing network 
+          applications like socket creation, client/server applications etc. The network simulator NS2 is also installed to familiarize
+           with developing network simulations.</p>
+      </div>
+      <div class=labs>
+        <img src="images/mullab.jpg" alt="multilab">
+        <h3>Multimedia Lab & PG Laboratory</h3>
+        <p>To perform image editing operations using Photoshop Tool.
+          To do simple 2D animation operations using "Flash" Tool.
+          To perform sound editing operations using sound forge software.</p>
+      </div>
+      <div class=labs>
+        <img src="images/cclab.jpeg" alt="cclab">
+        <h3>Cloud Computing Laboratory</h3>
+        <p>This lab has high configuration with core i3 processors. This lab is utilized by the students to
+           learn and develop cloud environment using cloud sim.</p>
+      </div>
+      <div class=labs>
+        <img src="images/madlab.jpeg" alt="madlab">
+        <h3>Mobile Application Development Lab</h3>
+        <p>The department has well equipped laboratory with facilities that are vital to train
+           the students in developing the mobile applications.</p>
+      </div>
+      <div class=labs>
+        <img src="images/mclab.png" alt="mcllab">
+        <h3>Mobile Communication Laboratory</h3>
+        <p>This lab was established as Centre of excellence of Internet of Things (IoT) in collaboration with Centre for 
+          Development of Advanced Computing (CDAC) . This lab provides a platform for developing IoT applications and 
+          working with mobile communication related experiments.</p>
+      </div>
+      <div class=labs>
+        <img src="images/vclab.png" alt="vclab">
+        <h3>Virtual Computing Laboratory</h3>
+        <p>This lab provides a platform to the students to bring their own devices and work on any latest technologies.</p>
+      </div>
+      <div class=labs>
+        <img src="images/iplab.jpeg" alt="iplab">
+        <h3>Internet Programming Laboratory</h3>
+        <p>Internet Programming Laboratory is mainly utilized by the students for developing dynamic web applications using the tools 
+          like adobe dreamweaver and adobe photoshop.
+          The Students are also facilitated to use the freely available open source tools like XAMPP/WAMP Servers.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="fleft">
+        
+        <h4><i class="fa fa-home"></i>Admin block, KEC</h4>
+        <h5>Perundurai, Erode - 638060</h5>
+        <h4><i class="fa fa-phone"></i>Phone : 04294 - 226555, 226666, 226500</h4>
+        <h5>Administration/Reception</h5>
+        <h4><i class="fa fa-envelope-o"></i>principal@kongu.ac.in</h4>
+        <h5>Send us your query anytime!</h5>
+      </div>
+      <div class="fright">
+        <h4><i class="fa fa-home"></i>IT Park, KEC</h4>
+        <h5>Perundurai, Erode - 638060</h5>
+        <h4><i class="fa fa-phone"></i>Phone : 04294 - 226560</h4>
+        <h5>IT Park/CSE Department</h5>
+        <h4><i class="fa fa-envelope-o"></i>csedepartmentkec2015@gmail.com</h4>
+        <h5>Send us your query anytime!</h5>
+      </div>
+      <hr>
+      <div class="copy">
+        <p> copyright©2020|designed for designathon</p>
+
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn">TOP ↑</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

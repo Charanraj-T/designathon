@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <div class="navbar">
+    <img id="logo" src="images/kongu.png" alt="kongu">
+    <a id="f" href="https://www.kongu.ac.in">About us</a>
+    <div class="dropdown">
+        <button class="dropbtn">Facility 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropopt">
+            <a href="lab.html">Laboratory</a>
+            <a href="lib.html">Library</a>
+        </div>
+    </div>
+    <a href="student.html">Student </a>
+    <a href="index.html">Home</a>
+  </div>
+
+  <div class="useful">
+    <h3>USEFUL LINKS</h3>
+    <a href="https://www.coe.kongu.edu/circulars.php">CIRCULARS</a>
+    <a href="https://www.results.kongu.edu">RESULTS</a>
+    <a href="https://www.kongu.ac.in/placement.php">PLACEMENTS</a>
+  </div>
+
+  <div class="footer">
+    <div class="fleft">
+      
+      <h4><i class="fa fa-home"></i>Admin block, KEC</h4>
+      <h5>Perundurai, Erode - 638060</h5>
+      <h4><i class="fa fa-phone"></i>Phone : 04294 - 226555, 226666, 226500</h4>
+      <h5>Administration/Reception</h5>
+      <h4><i class="fa fa-envelope-o"></i>principal@kongu.ac.in</h4>
+      <h5>Send us your query anytime!</h5>
+    </div>
+    <div class="fright">
+      <h4><i class="fa fa-home"></i>IT Park, KEC</h4>
+      <h5>Perundurai, Erode - 638060</h5>
+      <h4><i class="fa fa-phone"></i>Phone : 04294 - 226560</h4>
+      <h5>IT Park/CSE Department</h5>
+      <h4><i class="fa fa-envelope-o"></i>csedepartmentkec2015@gmail.com</h4>
+      <h5>Send us your query anytime!</h5>
+    </div>
+    <hr>
+    <div class="copy">
+      <p> copyright©2020|designed for designathon</p>
+
+    <button onclick="topFunction()" id="myBtn">TOP ↑</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

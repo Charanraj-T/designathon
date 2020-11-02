@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="navbar">
+     <img id="logo" src="images/kongu.png" alt="kongu">
+     <a id="f" href="https://www.kongu.ac.in">About us</a>
+     <div class="dropdown">
+        <button class="dropbtn">Facility 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropopt">
+            <a href="lab.html">Laboratory</a>
+            <a href="lib.html">Library</a>
+        </div>
+      </div>
+      <a href="student.html">Student </a>
+      <a href="index.html">Home</a>
+    </div>
+
+    <div class="bg" id="lib">
+      <div class="introlib" >
+        <h1>LIBRARY</h1>
+        <h3>common to cse and it</h3>  
+      </div>
+      
+      <div class="row">
+          <div class="card">
+            <h3>Total area</h3>
+            <p>232 sq.m</p>
+          </div>
+          <div class="card">
+            <h3>Value of Books</h3>
+            <p>Rs. 6.69 lakhs</p>
+          </div>
+          <div class="card">
+            <h3>Journals</h3>
+            <p>29</p>
+          </div>
+          <div class="card">
+            <h3>Magazine</h3>
+            <p>08</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <h3>No.of Volumes</h3>
+            <p>1786</p>
+          </div>
+          <div class="card">
+            <h3>Value of journals</h3>
+            <p>Rs.88, 856 /-</p>
+          </div>
+          <div class="card">
+            <h3>No. of Titles</h3>
+            <p>1378</p>
+          </div>
+          <div class="card">
+            <h3>No. of projects</h3>
+            <p>106</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="fleft">
+        
+        <h4><i class="fa fa-home"></i>Admin block, KEC</h4>
+        <h5>Perundurai, Erode - 638060</h5>
+        <h4><i class="fa fa-phone"></i>Phone : 04294 - 226555, 226666, 226500</h4>
+        <h5>Administration/Reception</h5>
+        <h4><i class="fa fa-envelope-o"></i>principal@kongu.ac.in</h4>
+        <h5>Send us your query anytime!</h5>
+      </div>
+      <div class="fright">
+        <h4><i class="fa fa-home"></i>IT Park, KEC</h4>
+        <h5>Perundurai, Erode - 638060</h5>
+        <h4><i class="fa fa-phone"></i>Phone : 04294 - 226560</h4>
+        <h5>IT Park/CSE Department</h5>
+        <h4><i class="fa fa-envelope-o"></i>csedepartmentkec2015@gmail.com</h4>
+        <h5>Send us your query anytime!</h5>
+      </div>
+      <hr>
+      <div class="copy">
+        <p> copyright©2020|designed for designathon</p>
+
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn">TOP ↑</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
