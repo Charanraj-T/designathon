@@ -1,2 +1,5 @@
-# designathon
-This is a sample cse department website created for designathon event
+# Designathon
+
+My first website created for designathon event
+
+https://charanraj-t.github.io/designathon/
